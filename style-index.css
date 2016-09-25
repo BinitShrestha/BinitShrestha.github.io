@@ -1,0 +1,22 @@
+/* A simple stylesheet */
+
+body {
+	background-color: #726A5D;
+}
+
+h1 {
+	text-align: center;
+}
+
+#picture {
+	width:200px;
+    height: auto;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #E6DEDC;
+}
+
+#title {
+	color: #E6DEDC;
+	right: 0px;
+}
