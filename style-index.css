@@ -9,14 +9,63 @@ h1 {
 }
 
 #picture {
-	width:200px;
+	width: 200px;
     height: auto;
 	border-radius: 50%;
 	border-style: solid;
 	border-color: #E6DEDC;
+	vertical-align: middle;
 }
 
 #title {
 	color: #E6DEDC;
-	right: 0px;
+}
+
+#info {
+	font-size: 14px;
+}
+
+.line-separator{
+	padding-top: 20px;
+	height:1px;
+	border-bottom:2px solid #E6DEDC;
+}
+
+
+#buttons
+{
+	padding-top: 100px;
+    width:100%;
+}
+
+#resume_button
+{
+	border-radius: 15%;
+	border:10px solid #f0e4d6;
+	float: left;
+    width: 40%;
+    height: auto;
+    padding: 10px 15px;
+    background: #E6DEDC;
+    color: #726A5D;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bio_button
+{
+	border-radius: 15%;
+	border:10px solid #f0e4d6;
+	float: right;
+    width: 40%;
+    height: auto;
+    padding: 10px 15px;
+    background: #E6DEDC;
+    color: #726A5D;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
 }
